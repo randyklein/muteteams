@@ -5,7 +5,7 @@ toggle_mute_teams(){
 
 	activeWin := WinGetTitle("A")					;Get the title of the active window to later reactivate
 	
-	winList := WinGetlist("ahk_exe Teams.exe",,,)
+	winList := WinGetlist("ahk_exe ms-teams.exe",,,)
 
 	for window in winList 							;Loop through IDs of all teams windows
 	{
@@ -24,7 +24,7 @@ toggle_camera_teams(){
 
 	activeWin := WinGetTitle("A")					;Get the title of the active window to later reactivate
 	
-	winList := WinGetlist("ahk_exe Teams.exe",,,)
+	winList := WinGetlist("ahk_exe ms-teams.exe",,,)
 
 	for window in winList 							;Loop through IDs of all teams windows
 	{
