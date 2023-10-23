@@ -1,5 +1,5 @@
 AppsKey::toggle_mute_teams()						;menu key - toggle mute
-^AppsKey::toggle_camera_teams()						;menu key - toggle camera
+^AppsKey::toggle_camera_teams()						;ctrl + menu key - toggle camera
 
 toggle_mute_teams(){
 
