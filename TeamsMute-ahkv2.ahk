@@ -14,7 +14,6 @@ toggle_mute_teams(){
 			WinActivate(WinGetTitle(window))	;This should be either the main Teams window or the meeting window, activate it
 			Send("^+M")							;send ctrl,shift,m shortcut
 			sleep 20							;sometimes it activates the new window before the sendkeys finishes, delay fixes it
-			break								;There are multiple teams windows, break the loop so that the mute commmand doesnt keep sending after the right window is found
 	}}
 	
 	WinActivate (activeWin) 						;reactivate the originally active window
@@ -33,7 +32,6 @@ toggle_camera_teams(){
 			WinActivate(WinGetTitle(window))	;This should be either the main Teams window or the meeting window, activate it
 			Send("^+O")							;send ctrl,shift,m shortcut
 			sleep 20							;sometimes it activates the new window before the sendkeys finishes, delay fixes it
-			break								;There are multiple teams windows, break the loop so that the mute commmand doesnt keep sending after the right window is found
 	}}
 	
 	WinActivate (activeWin) 						;reactivate the originally active window
