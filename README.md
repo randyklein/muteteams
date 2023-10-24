@@ -12,7 +12,8 @@ There are many different ways to isntall and configure autohotkey.  This is just
 Note: There is a zip version of AutoHotKey that can be used without installing.  I'm assuming this would work, but I have not tested it myself.  A guide can be found at: https://www.thenickmay.com/how-to-install-autohotkey-even-without-administrator-access/
 
 ## Usage
-* Modify the top two lines to change shorcut key assignments to any key desired.  See documentation at: https://www.autohotkey.com/docs/v1/lib/Send.htm
+* By default the menu key toggles mute and ctrl + menu key toggles the camera.  
+* To change the shortcut key assignments, modify the top two lines in the script to any key desired.  See documentation at: https://www.autohotkey.com/docs/v1/lib/Send.htm
 
 ## Notes
 * In Teams, there is no easy way to differentiate between the main Teams window and the meeting windows.  In the latest version, the shortcut only works in the meeting window and does nothing in the main window so the script cycles through all windows and sends the shortcut.  When it sends in the main window, nothing happens.  In past versions of teams, the shortcut worked in all windows.  To use in past versions of teams, you will need to uncomment the break so that the shortcut is only sent once.  If this script is used in past versions without  making this change, the shortcut will run in each window and toggle then untoggle.  
