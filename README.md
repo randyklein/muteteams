@@ -4,7 +4,7 @@ This autohotkey script allows you to create a shortcut on your keybord to toggle
 ## Installing
 Note: there are many different ways to isntall and configure autohotkey.  This is just one method.  This script can be installed or configured to work in other ways
 
-* Install AutoHotKey v2
+* Install AutoHotKey v2 from https://www.autohotkey.com/download/
 * Press `Win key + R` and run the following command `shell:startup`
 * Save TeamsMute-ahkv2.ahk to the startup folder.
 * Click TeamsMute-ahkv2.ahk to run for the first time.
